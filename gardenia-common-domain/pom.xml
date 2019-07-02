@@ -12,9 +12,8 @@
     </parent>
 
     <groupId>com.gardenia.study</groupId>
-    <artifactId>gardenia-common-center</artifactId>
-
-
+    <artifactId>gardenia-common-domain</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -22,15 +21,8 @@
             <artifactId>gardenia-dependences-center</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

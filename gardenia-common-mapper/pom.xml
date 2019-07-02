@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
     <parent>
         <groupId>com.gardenia.study</groupId>
         <artifactId>gardenia-denpendences-center</artifactId>
@@ -11,8 +12,9 @@
         <relativePath>../gardenia-dependences-center/pom.xml</relativePath>
     </parent>
 
+
     <groupId>com.gardenia.study</groupId>
-    <artifactId>gardenia-common-center</artifactId>
+    <artifactId>gardenia-common-mapper</artifactId>
 
 
 
@@ -21,6 +23,11 @@
             <groupId>com.gardenia.study</groupId>
             <artifactId>gardenia-dependences-center</artifactId>
             <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gardenia.study</groupId>
+            <artifactId>gardenia-common-domain</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
@@ -32,5 +39,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>
