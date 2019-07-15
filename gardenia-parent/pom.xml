@@ -9,6 +9,7 @@
         <module>gardenia-common</module>
         <module>gardenia-common-api</module>
         <module>gardenia-common-mapper</module>
+        <module>gardenia-common-domain</module>
     </modules>
 
     <parent>

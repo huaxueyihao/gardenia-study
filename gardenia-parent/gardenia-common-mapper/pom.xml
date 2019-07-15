@@ -11,5 +11,24 @@
 
     <artifactId>gardenia-common-mapper</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.gardenia.study</groupId>
+            <artifactId>gardenia-common-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+            <version>${tk.mybatis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+            <version>${tk.mybatis.mapper.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
