@@ -6,6 +6,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>gardenia-databases-generator</module>
+        <module>gardenia-common</module>
+        <module>gardenia-common-api</module>
+        <module>gardenia-common-mapper</module>
     </modules>
 
     <parent>
