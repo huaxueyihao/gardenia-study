@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gardenia.study.mapper.ClientdetailsMapper" >
+  <resultMap id="BaseResultMap" type="com.gardenia.study.domain.Clientdetails" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="appId" property="appid" jdbcType="VARCHAR" />
+    <result column="resourceIds" property="resourceids" jdbcType="VARCHAR" />
+    <result column="appSecret" property="appsecret" jdbcType="VARCHAR" />
+    <result column="scope" property="scope" jdbcType="VARCHAR" />
+    <result column="grantTypes" property="granttypes" jdbcType="VARCHAR" />
+    <result column="redirectUrl" property="redirecturl" jdbcType="VARCHAR" />
+    <result column="authorities" property="authorities" jdbcType="VARCHAR" />
+    <result column="access_token_validity" property="accessTokenValidity" jdbcType="INTEGER" />
+    <result column="refresh_token_validity" property="refreshTokenValidity" jdbcType="INTEGER" />
+    <result column="additionalInformation" property="additionalinformation" jdbcType="VARCHAR" />
+    <result column="autoApproveScopes" property="autoapprovescopes" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
